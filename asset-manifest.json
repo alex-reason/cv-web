@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-web/static/css/main.b3878cdb.css",
-    "main.js": "/cv-web/static/js/main.eb37cda8.js",
+    "main.css": "/cv-web/static/css/main.1c3113ad.css",
+    "main.js": "/cv-web/static/js/main.41c9a3f5.js",
     "static/media/mirror.png": "/cv-web/static/media/mirror.fd1344490cb543092169.png",
     "static/media/portfolio1.png": "/cv-web/static/media/portfolio1.f9b40c47424da386d175.png",
     "static/media/portfolio3.png": "/cv-web/static/media/portfolio3.e99ace0e756dfc6bfeb2.png",
@@ -9,11 +9,11 @@
     "static/media/portfolio5.png": "/cv-web/static/media/portfolio5.30b58e05abfb80f8478d.png",
     "static/media/portfolio4.png": "/cv-web/static/media/portfolio4.b945f14f0dc6a7dd16d3.png",
     "index.html": "/cv-web/index.html",
-    "main.b3878cdb.css.map": "/cv-web/static/css/main.b3878cdb.css.map",
-    "main.eb37cda8.js.map": "/cv-web/static/js/main.eb37cda8.js.map"
+    "main.1c3113ad.css.map": "/cv-web/static/css/main.1c3113ad.css.map",
+    "main.41c9a3f5.js.map": "/cv-web/static/js/main.41c9a3f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3878cdb.css",
-    "static/js/main.eb37cda8.js"
+    "static/css/main.1c3113ad.css",
+    "static/js/main.41c9a3f5.js"
   ]
 }
