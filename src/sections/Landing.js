@@ -2,7 +2,7 @@ import mirror from '../assets/mirror.png';
 
 const Landing = () => {
     return (
-        <div id='home' className='landing'>
+        <heading id='home' className='landing'>
             <div className='landing__item landing__description'>
                 <h1>Creativity, Curiosity, Consistency. </h1>
                 <p>
@@ -16,7 +16,7 @@ const Landing = () => {
                 <img src={mirror} alt='landing-flower' />
                 <div className='shadow'></div>
             </div>
-        </div>
+        </heading>
     )
 };
 
