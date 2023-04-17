@@ -4,7 +4,6 @@ import Skills from '../components/Skills';
 import Certificate from '../components/Certificate';
 
 const Competencies = () => {
-
     return (
         <div id='competencies' className='section competencies'>
             <Title direction='left'>

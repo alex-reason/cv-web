@@ -1,13 +1,11 @@
-import Menu from './sections/Menu';
-import Landing from './sections/Landing';
-import Competencies from './sections/Competencies';
-import Portfolio from './sections/Portfolio';
-import Footer from './sections/Footer';
+import {Menu, Landing, Competencies, Portfolio, Footer, Blog} from './sections';
 
 const App = () => {
     const menuItems = [
         { href: '#competencies', label: 'competencies' },
         { href: '#portfolio', label: 'portfolio' },
+        
+        { href: '#blog', label: 'journal' },
     ];
 
     const reveal = () => {
@@ -32,7 +30,7 @@ const App = () => {
                 <Landing />
                 <Competencies />
                 <Portfolio />
-                {/* <Experience /> */}
+                <Blog />
             </div>
             <Footer />
         </div>
