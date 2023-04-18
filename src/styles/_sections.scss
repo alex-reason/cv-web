@@ -14,6 +14,7 @@
     color: $color-dark;
     background-color: #fff;
     border: $border;
+    box-shadow: $box-shadow;
 
     @media screen and (max-width: $screen-small) {
         font-weight: 600;
@@ -149,10 +150,6 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 1rem;
-
-        @media screen and (max-width: $screen-small){
-            gap: 2rem;
-        }
     }
 }
 
