@@ -5,7 +5,6 @@ import portfolio1 from './portfolio1.png';
 import portfolio2 from './portfolio2.png';
 import portfolio3 from './portfolio3.png';
 import portfolio4 from './portfolio4.png';
-import portfolio5 from './portfolio5.png';
 
 const certData = [
     {
