@@ -13,9 +13,9 @@ const Landing = () => {
             </div>
 
             <div className='landing__item landing__image'>
-                <img src={mirror} 
-                title='doodle by me'
-                alt='landing-flower' />
+                <img src={mirror}
+                    title='doodle by me'
+                    alt='landing-flower' />
                 <div className='shadow'></div>
             </div>
         </heading>

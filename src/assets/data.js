@@ -137,13 +137,6 @@ const portfolioData = [
         url: 'https://finance-tracker-68266.web.app/',
         detail: 'App for tracking expenses using React and firebase. Functions include firebase database and authentication.',
         id: 'portfolio4'
-    },
-    {
-        image: portfolio5,
-        title: 'personal website',
-        url: 'https://alex-reason.github.io/personal-website-3/',
-        detail: 'Vanilla html, css and javascript. This is a showcase of DOM manipulation, interactions and  event listeners',
-        id: 'portfolio5'
     }
 ];
 
@@ -151,7 +144,7 @@ const blogData = [
     {
         id: 'blog1',
         title: 'Currently learning as of April 2023',
-        content: 'I am currently studying and improving my skills in: unit testing, typescript, and firebase. Although there is a lot to learn, I have built a habit of learning something everyday.My goal is to maintain a habit of coding at least 3 hours a day!'
+        content: 'I am currently studying and improving my skills in: unit testing, typescript, and firebase. Although there is a lot to learn, I have built a habit of learning something everyday. My goal is to maintain a habit of coding at least 3 hours a day!'
     },
 
     {
