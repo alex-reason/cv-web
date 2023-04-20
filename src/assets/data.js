@@ -75,7 +75,7 @@ const experienceData = [
         id: 'experience1',
         label: 'Paralegal',
         content: [
-            'From September 2020',
+            'Tancinco Law PC. From September 2020',
             'Works on around 10-20 immigration related cases a week with minimal supervision from the attorneys.',
             'Uses AWS and other web services to efficiently file applications.',
             'Maintains relationships with around 100 clients yearly by gathering, evaluating, and organizing extensive amounts of client data in a digital filing system throughout the case process.',
@@ -87,7 +87,7 @@ const experienceData = [
         id: 'experience2',
         label: 'Legal Assistant',
         content: [
-            'November 2018 - March 2020',
+            'Tancinco Law PC. November 2018 - March 2020',
             'Prepared immigration related applications with the supervision of 1-2 attorneys.',
             'Stayed in constant communication with around 10 new and current clients a day by gathering information, updating clients of their cases, and maintaining comprehensive spreadsheets of cases and clients along with their respective timetables.',
             'Managed schedules of 5 attorneys.',
@@ -98,11 +98,20 @@ const experienceData = [
         id: 'experience3',
         label: 'Coordinator',
         content: [
-            'April 2018 - March 2020',
+            'Kwan Academy and Music. April 2018 - March 2020',
             'Class coordinator and assistant to the music school director.',
             'Proposed music classes schedules for around 10 clients a week through connecting students and teachers.',
             'Managed the 3-4 recitals twice a year for about 30 students by coordinating with teachers, parents and students, preparing the schedule, and assisting the director.',
             'Created a system for tracking inquiries and potential clients for the music school.',
+        ]
+    },
+    {
+        id: 'experience4',
+        label: 'Nonprofit Intern',
+        content: [
+            'Amnesty International (PH). June 2015 - July 2015',
+            'Worked directly under the Human Rights Officer and head of the Campaigns Office.',
+            'Collaborated with government agencies and other non profits for 2-3 human rights campaign projects under the supervision of the head of the Campaigns office.'
         ]
     }
 ];
