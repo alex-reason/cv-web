@@ -2,7 +2,7 @@ import mirror from '../assets/mirror.png';
 
 const Landing = () => {
     return (
-        <heading id='home' className='landing'>
+        <header id='home' className='landing'>
             <div className='landing__item landing__description'>
                 <h1>Creativity, Curiosity, Consistency. </h1>
                 <p>
@@ -18,7 +18,7 @@ const Landing = () => {
                     alt='landing-flower' />
                 <div className='shadow'></div>
             </div>
-        </heading>
+        </header>
     )
 };
 

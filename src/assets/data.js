@@ -15,35 +15,43 @@ const certData = [
     },
 
     {
+        title: 'Principles of UX/UI Design',
+        url: 'https://coursera.org/share/c738eb5af53384d48be56badf890d0e9',
+        detail: 'coursera by Meta',
+        id: 'cert2'
+    },
+
+    {
         title: 'Responsive Web Design',
         url: 'https://www.freecodecamp.org/certification/mai-reason/responsive-web-design',
         detail: 'freecodecamp',
-        id: 'cert2',
+        id: 'cert3',
     },
     {
         title: 'Javascript Algorithms and Data Structures',
         url: 'https://www.freecodecamp.org/certification/mai-reason/javascript-algorithms-and-data-structures',
         detail: 'freecodecamp',
-        id: 'cert3',
+        id: 'cert4',
     },
     {
         title: 'Advanced CSS and SASS',
         url: 'https://www.udemy.com/certificate/UC-d81b2395-2c38-44fe-8c36-80b9d47777cb/',
         detail: 'Udemy',
-        id: 'cert4',
+        id: 'cert5',
     },
     {
         title: 'Complete jQuery Course',
         url: 'https://www.udemy.com/certificate/UC-66914547-14c7-4ed5-a444-2caff107cf51/',
         detail: 'Udemy',
-        id: 'cert5',
+        id: 'cert6',
     },
     {
         title: 'Modern React with Redux',
         url: 'https://www.udemy.com/certificate/UC-e4cba17d-9e2e-4b03-9a98-765145da4ea1/',
         detail: 'Udemy',
-        id: 'cert6',
-    },
+        id: 'cert7',
+    }
+
 ];
 
 const skillsData = [
@@ -177,21 +185,25 @@ const blogData = [
 
 const socialData = [
     {
+        id: 'social1',
         url: 'https://www.linkedin.com/in/alexandra-reasonda/',
         icon: <SiLinkedin />
     },
 
     {
+        id: 'social2',
         url: 'https://my.indeed.com/p/alexandrar-mje63u7',
         icon: <SiIndeed />
     },
 
     {
+        id: 'social3',
         url: 'https://github.com/alex-reason',
         icon: <SiGithub />
     },
 
     {
+        id: 'social4',
         url: 'https://www.codewars.com/users/alex-reason',
         icon: <SiCodewars />
     },
