@@ -5,7 +5,7 @@ import Certificate from '../components/Certificate';
 
 const Competencies = () => {
     return (
-        <div id='competencies' className='section competencies'>
+        <section id='competencies' className='section competencies'>
             <Title direction='left'>
                 Certificates and Competencies
             </Title>
@@ -17,7 +17,7 @@ const Competencies = () => {
                 So, communication and attention-to-detail are skills I've greatly honed!
                 I know these skills will be very useful in developer work.
             </p>
-        </div>
+        </section>
     )
 };
 

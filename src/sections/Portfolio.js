@@ -4,10 +4,10 @@ import { portfolioData } from '../assets/data';
 
 const Portfolio = () => {
     return (
-        <div id='portfolio' className='section portfolio'>
+        <section id='portfolio' className='section portfolio'>
             <Title  direction='right'>Portfolio</Title>
             <PortfolioShow data={portfolioData} />
-        </div>
+        </section>
     )
 };
 
