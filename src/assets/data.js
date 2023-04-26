@@ -145,14 +145,6 @@ const portfolioData = [
         url: 'https://alex-reason.github.io/vince-reasonda/',
         detail: 'Plain html and javascript, and SCSS. Showcasing use of grid and media queries. Artworks are by Vince Reasonda.',
         id: 'portfolio3'
-    },
-
-    {
-        image: portfolio4,
-        title: 'Finance Tracker',
-        url: 'https://finance-tracker-68266.web.app/',
-        detail: 'App for tracking expenses using React and firebase. Functions include firebase database and authentication.',
-        id: 'portfolio4'
     }
 ];
 
