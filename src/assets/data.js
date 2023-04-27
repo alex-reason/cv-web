@@ -152,25 +152,25 @@ const blogData = [
     {
         id: 'blog1',
         title: 'Currently learning as of April 2023',
-        content: 'I am currently studying and improving my skills in: unit testing, typescript, and firebase. Although there is a lot to learn, I have built a habit of learning something everyday. My goal is to maintain a habit of coding at least 3 hours a day!'
+        content: 'I am currently studying and improving my skills in: unit testing, typescript, and firebase. Although there is a lot to learn, I have built a habit of learning something everyday. My goal is to maintain my habit of coding at least 3 hours a day!'
     },
 
     {
         id: 'blog2',
         title: 'Most fun to learn, Most difficult to learn',
-        content: 'I think I am having the most fun learning React contexts at the moment. I enjoy playing around with contexts and reducers, but there is a definitely a learning curve! I had a hard time grasping it, and I still spend a lot of time incorporating the concepts in my projects, but it is very useful in more complex state managements. My goal is to dive further in Redux and Redux-toolkit.'
+        content: 'I think I am having the most fun learning React contexts at the moment. I enjoy playing around with contexts and reducers, but there is a definitely a learning curve! I had a hard time grasping it, and I still spend a lot of time incorporating the concepts in my projects, but it is very useful in more complex state managements. My goal is to dive further into Redux and Redux-toolkit.'
     },
 
     {
         id: 'blog3',
         title: 'Version Control',
-        content: 'I started publishing my projects in github early in my learning journey, but at the time, I barely understood the importance of version control. But with my recent projects, I check git status and that I have committed my changes. I should have learned version control earlier. I am far from an expert in git, but I recognize its value in the development cycle.'
+        content: 'I started publishing my projects in github early in my learning journey, but at the time, I barely understood the importance of version control. But with my recent projects, I check git status and make sure I have committed my changes. I should have learned version control earlier. There is still a lot more to learn regarding Git, but I recognize its value in the development cycle.'
     },
 
     {
         id: 'blog4',
-        title: 'Projects and Healthy Habits',
-        content: 'We spend majority of the time sitting down and on our desks during work, coding, and studying in general. I am currently working on a web app that will help me in tracking and maintaining healthy habits, and I am applying everything I have learned and currently learning. An app that is practical to me and others like me is very motivating. I cannot wait to finish it.'
+        title: 'Projects, Healthy Habits and Research',
+        content: 'I spend majority of the time sitting down and on my desk during work, coding, and studying in general. I am currently working on a web app that will help me in tracking and maintaining healthy habits, and I am applying everything I have learned and currently learning. An app that is practical to me and others like me is very motivating. I cannot wait to finish it. I am also preparing another website dedicated to my research interests! I am hoping to post my writing regarding sustainability on there. I still have other project ideas, but I am hoping to complete these first.'
     }
 
 ];
