@@ -13,6 +13,7 @@
     &:hover {
         border: none;
         border-left: $border;
+        border-radius: 0;
         box-shadow: 5px 5px 18px -12px rgba(39, 39, 39, 0.801);
         font-weight: 600;
         background-color: #fff;
@@ -31,11 +32,6 @@
     border-bottom: $border;
     box-shadow: $box-shadow;
 
-    // &__margin {
-    //     height: 3rem;
-    //     background-color: $color-dark;
-    // }
-
     &-right {
         text-align: right;
     }
@@ -51,7 +47,7 @@
     margin-bottom: 2rem;
     padding: 2rem 7rem;
 
-    @media screen and (max-width: $screen-medium){
+    @media screen and (max-width: $screen-medium) {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -60,21 +56,19 @@
     }
 
     &__item {
-        width: 100%;
+        width: 90%;
         height: 12rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-shadow: $box-shadow;
+        border-radius: 2px;
+        margin: 1rem;
+        padding: 1rem;
 
         @media screen and (max-width: $screen-medium) {
             height: 10rem;
             margin: 1rem 0;
-        }
-
-        @media screen and (max-width: $screen-small) {
-            width: 90%;
-            margin: auto;
-            padding: 0;
         }
 
         p,
@@ -102,6 +96,7 @@
 
     @media screen and (max-width: $screen-small) {
         padding: 1rem 0;
+        margin: 0 1rem;
     }
 
     &__item {
@@ -260,9 +255,14 @@
             margin: 1rem 0;
             padding: 0.5rem;
             border: none;
-            box-shadow: 5px 5px 18px -12px rgba(39, 39, 39, 0.801);
+            box-shadow: $box-shadow;
+            border-radius: 2px;
             font: $content-heading;
             text-transform: uppercase;
+
+            &:hover {
+                border-radius: 0;
+            }
         }
 
         p {

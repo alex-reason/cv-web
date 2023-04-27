@@ -1,8 +1,8 @@
 $color-dark: #303030;
 $color-primary: #ffe990;
 
-$border: 2px solid #272727;
-$border-light: 2px solid #27272709;
+$border: 1px solid #303030;
+$border-light: 2px solid #30303009;
 
 $font: 'Source Sans Pro', sans-serif;
 $content-heading: 600 2.4rem 'Source Sans Pro', sans-serif;
@@ -13,7 +13,7 @@ $screen-large: 1200px;
 $screen-medium: 1000px;
 $screen-small: 800px;
 
-$box-shadow: 1px 1px 5px 2px rgba(26, 26, 26, 0.168);
+$box-shadow: 1px 1px 3px 1px rgba(26, 26, 26, 0.099);
 
 html {
     box-sizing: border-box;
