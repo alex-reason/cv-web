@@ -5,6 +5,22 @@ import portfolio1 from './portfolio1.png';
 import portfolio2 from './portfolio2.png';
 import portfolio3 from './portfolio3.png';
 
+const landingData = [
+    {
+        title: "Web Development",
+        content: "I like to develop websites using React, JS, and SASS. I have several certifications in front-end web development, UI/UX, Responsive Web design, and Modern React."
+    },
+    {
+        title: "Research Interests",
+        content: "I would like to learn, research and share about the multifaceted value of biodiversity. My graduate thesis was on Marine and Coastal Resource management and Norm Localization in the Management of Biodiversity."
+    },
+    {
+        title: "Love of Languages",
+        content: "I am fluent in English and Tagalog (Filipino), and I have upper-intermediate proficiency in French and Japanese. I am hoping to learn other languages too! This applies to coding languages as well."
+    },
+
+]
+
 const certData = [
     {
         title: 'Meta: Front-end Developer Professional Certificate',
@@ -200,4 +216,4 @@ const socialData = [
     },
 ];
 
-export { skillsData, portfolioData, socialData, certData, experienceData, blogData };
+export { skillsData, portfolioData, socialData, certData, experienceData, blogData, landingData };

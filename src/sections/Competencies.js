@@ -2,6 +2,7 @@ import Title from '../components/Title';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import Certificate from '../components/Certificate';
+import person1 from '../assets/person1.png';
 
 const Competencies = () => {
     return (
@@ -11,6 +12,9 @@ const Competencies = () => {
             </Title>
             <Certificate />
             <Skills />
+            <div className='competencies__img'>
+                <img src={person1} alt='from Blush by Elina Cecilia Giglio' />
+            </div>
             <Experience />
             <p className='competencies__summary reveal'>
                 I regularly work with clients and lawyers, and as a paralegal, I deal with a huge database of information and documents.

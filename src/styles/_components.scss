@@ -37,6 +37,31 @@
     }
 }
 
+.landing-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: $screen-small){
+        padding: 1rem 3rem;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 2rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
 .certificate {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -56,15 +81,15 @@
     }
 
     &__item {
-        width: 90%;
+        width: 80%;
         height: 12rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         box-shadow: $box-shadow;
-        border-radius: 2px;
+        border-radius: 5px;
         margin: 1rem;
-        padding: 1rem;
+        padding: 1rem 3rem;
 
         @media screen and (max-width: $screen-medium) {
             height: 10rem;
@@ -85,6 +110,10 @@
             font: $content-heading;
         }
     }
+
+    img {
+        width: 60%;
+    }
 }
 
 .skill {
@@ -93,10 +122,11 @@
     justify-content: space-between;
     background-color: #fff;
     padding: 1rem 7rem;
+    margin-top: 14rem;
 
     @media screen and (max-width: $screen-small) {
         padding: 1rem 0;
-        margin: 0 1rem;
+        margin: 0 3rem;
     }
 
     &__item {
@@ -147,8 +177,8 @@
 }
 
 .accordion {
-    padding: 3rem 0;
-    margin: 8rem 0 0 0;
+    padding-bottom: 3rem;
+    margin: 0;
 
     &__label {
         display: flex;

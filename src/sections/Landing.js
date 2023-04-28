@@ -1,22 +1,29 @@
 import mirror from '../assets/mirror.png';
+import { landingData } from '../assets/data';
+import LandingItem from '../components/LandingItem';
 
 const Landing = () => {
     return (
         <header id='home' className='landing'>
-            <div className='landing__item landing__description'>
-                <h1>Creativity, Curiosity, Consistency. </h1>
-                <p>
-                    I'm Alexandra!
-                    Looking for front-end web development or non-profit work. I welcome the opportunity to use my React and website development skills.
-                </p>
-                <a className='button' href='#footer'>Reach out</a>
-            </div>
-
-            <div className='landing__item landing__image'>
+            <div className='landing__section landing__intro'>
                 <img src={mirror}
                     title='doodle by me'
-                    alt='landing-flower' />
-                <div className='shadow'></div>
+                    alt='landing-flower' 
+                    className='landing__image'
+                    />
+                <div className='landing__intro-info'>
+                    <h1>I'm Alexandra!</h1>
+                    <p>I like to code, to learn languages, and plants.</p>
+                    <a className='button' href='#footer'>Reach out</a>
+                </div>
+            </div>
+
+            <div className='landing__section landing__items'>
+                {
+                    landingData && landingData.map(item => {
+                        return <LandingItem item={item} />
+                    })
+                }
             </div>
         </header>
     )

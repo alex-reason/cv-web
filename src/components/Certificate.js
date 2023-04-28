@@ -1,5 +1,5 @@
 import { certData as data } from '../assets/data';
-
+import person2 from '../assets/person2.png';
 const Certificate = () => {
     const renderedCertificates = data && data.map(cert => {
         return (
@@ -11,6 +11,7 @@ const Certificate = () => {
     })
     return (
         <div className='certificate'>
+            <img src={person2} alt='from Blush by Elina Cecilia Giglio' title='from Blush by Elina Cecilia Giglio'/>
             {renderedCertificates}
         </div>
     )
