@@ -67,7 +67,7 @@
 
     &__items {
         width: 30%;
-        border-left: $border;
+        border-left: 5px solid $color-dark;
         padding: 7rem 1rem;
 
         @media screen and (max-width: $screen-small) {

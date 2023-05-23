@@ -166,8 +166,8 @@ const portfolioData = [
 const blogData = [
     {
         id: 'blog1',
-        title: 'Currently learning as of April 2023',
-        content: 'I am currently studying and improving my skills in: unit testing, typescript, and firebase. Although there is a lot to learn, I have built a habit of learning something everyday. My goal is to maintain my habit of coding at least 3 hours a day!'
+        title: 'Currently learning as of May 2023',
+        content: 'I am currently studying and improving my skills in: unit testing, and typescript. I also restarted my Python learning journey. Although there is a lot to learn, I have built a habit of learning something everyday. My goal is to maintain my habit of coding at least 3 hours a day!'
     },
 
     {
@@ -185,7 +185,7 @@ const blogData = [
     {
         id: 'blog4',
         title: 'Projects, Healthy Habits and Research',
-        content: 'I spend majority of the time sitting down and on my desk during work, coding, and studying in general. I am currently working on a web app that will help me in tracking and maintaining healthy habits, and I am applying everything I have learned and currently learning. An app that is practical to me and others like me is very motivating. I cannot wait to finish it. I am also preparing another website dedicated to my research interests! I am hoping to post my writing regarding sustainability on there. I still have other project ideas, but I am hoping to complete these first.'
+        content: 'I spend majority of the time sitting down and on my desk during work, coding, and studying in general. I am currently working on a web app that will help me and my friends in tracking and maintaining healthy habits, and I am applying everything I have learned and currently learning. An app that is practical to me and others like me is very motivating. I cannot wait to finish it. It is the most complex project I have, and I know it may take longer than my other projects, but I think it will be worth it.'
     }
 
 ];
